@@ -1,7 +1,8 @@
 # BunFight
 Allocate pairs at morning standups based on the following:
 
-* Availability matching
+* Match available for pairing
+* Match based on closest diary sync
 * Continuity from previous days tasks
 * Preferences for present day tasks
 * Domain knowledge
