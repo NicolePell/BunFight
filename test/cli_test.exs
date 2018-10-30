@@ -8,7 +8,7 @@ defmodule BunFight.CLITest do
       BunFight.CLI.main([])
     end
 
-    assert capture_io(execute_main) == "Let's start the Bun Fight!\n"
+    assert capture_io(execute_main) =~ "Let's start the Bun Fight!\n"
   end
 
   test ":help returned by option parsing with -h and --help or no options" do 
